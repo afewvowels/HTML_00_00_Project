@@ -1,6 +1,10 @@
-* {
+html, * {
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    background-color: red;
 }
 
 header {
@@ -8,15 +12,21 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: teal;
-    height: 80px;
+}
+
+nav {
+    background-color: green;
 }
 
 ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
     background-color: orange;
     li {
         background-color: blue;
+        padding: 10px 15px;
     }
 }
